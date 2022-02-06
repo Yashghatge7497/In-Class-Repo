@@ -3,6 +3,7 @@
 - Email  = ghatgey1@newpaltz.edu 
 - Contact =  (908)-338-6131
 - Address = 20,Colonial dr,Apt C,New Paltz,NY,12561
+
 Hi, this is Yash Ghatge. I am from Maharashtra, India. 
 I have done my UG in Electronics and Communication Engineering and was introduced to some computer 
 course like C, C++. I have done projects on Arduino using Embedded C language in my undergrad. 

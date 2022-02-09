@@ -242,29 +242,29 @@
             $(this).addClass("is-active");
 
             if($(this).text().trim() == "Current"){
-              showAll();
+              checkboxcontent();
               $(":checked").closest(".panel-block").hide();
               
               }
             else if($(this).text().trim() == "Completed"){ 
-              showAll();
+              checkboxcontent();
               $("input:not(:checked)").closest(".panel-block").hide();
               
 
               
             }
             else if ($(this).text().trim() == "Upcoming" || $(this).text().trim() == "All"){
-              showAll();
+              checkboxcontent();
               
 
             }
             else{
-              showAll();
+              checkboxcontent();
             }
 
          });
 
-          function showAll() {
+          function checkboxcontent() {
             $(".panel-block").show();
           }
     </script>

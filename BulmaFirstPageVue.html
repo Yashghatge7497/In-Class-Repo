@@ -123,7 +123,7 @@
                           </div>
                           <div class="panel-block">
 
-                            <form @submit.prevent="addTask" style="flex-grow: 1;">
+                            <form @submit.prevent="tasktoadd" style="flex-grow: 1;">
                             <div class="field has-addons " >
                               <div class="control has-icons-left is-expanded">
                                   <input class="input is-primary" type="text" placeholder="New Task" v-model="newTaskTitle">
@@ -141,7 +141,7 @@
                             </form>
   
                           </div>
-                          <a class="panel-block" v-for="task in visibleTasks" :key="task.title" :class="{ 'is-completed': currentTab != 'Completed' && task.isCompleted }">
+                          <a class="panel-block" v-for="task in taskstoshow" :key="task.title" :class="{ 'is-completed': currentTab != 'Completed' && task.isCompleted }">
                             <input type="checkbox" v-model="task.isCompleted" />
                             {{ task.title }}
                           </a>
@@ -231,7 +231,7 @@
                     changeTab(tab) {
                         this.currentTab = tab;
                     },
-                    addTask() {
+                    tasktoadd() {
                         this.tasks.unshift({
                             title: this.newTaskTitle,
                             completed: false
@@ -240,7 +240,7 @@
                     }
                 },
                 computed: {
-                    visibleTasks() {
+                    taskstoshow() {
                         
 						if(this.currentTab == 'Current'){
 

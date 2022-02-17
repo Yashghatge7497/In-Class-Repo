@@ -1,8 +1,9 @@
 {
   "name": "web-server",
   "version": "1.0.0",
-  "description": "![alt text](IMG_20220107_133844.jpg)",
-  "main": "index.js",
+  "description": "-HTML\r - CSS\r -Bulma\r -Vue 3\r -NOdeJS\r -Express\r -CI/CD",
+  "private" : true,
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,10 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/Yashghatge7497/demo.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Yashghatge7497/demo/issues"
-  },
-  "homepage": "https://github.com/Yashghatge7497/demo#readme"
+  "dependencies": {
+    "express" : "4.17.3"
+  }
 }

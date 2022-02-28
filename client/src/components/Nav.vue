@@ -1,15 +1,21 @@
 <script setup lang="ts">
+import { ref } from 'vue';
 
 
+const isOpen = ref(true);
 </script>
 
 <template>
   <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
 		<div class="navbar-brand">
 			<a class="navbar-item" href="https://bulma.io"> <img src="https://bulma.io/images/bulma-logo-white.png" width="112" height="28"> </a>
-			<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample"> <span aria-hidden="true"></span> <span aria-hidden="true"></span> <span aria-hidden="true"></span> </a>
+			<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" :class="{'is-active': isOpen}" @click="isOpen = !isOpen"> 
+        <span aria-hidden="true"></span> 
+        <span aria-hidden="true"></span> 
+        <span aria-hidden="true"></span> 
+        </a>
 		</div>
-		<div id="navbarExampleTransparentExample" class="navbar-menu">
+		<div id="navbarExampleTransparentExample" class="navbar-menu" :class="{'is-active': isOpen}" @click="isOpen = !isOpen">
 			<div class="navbar-start"> <a class="navbar-item" href="https://bulma.io/">
                 Home
               </a>

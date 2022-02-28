@@ -7,6 +7,16 @@ import Messages from './pages/Messages.vue';
 
 <template>
    <Nav />
+   <div class="container">
+     <section class="section">
+       <h1 class="title">
+         Praying UKriane 
+
+       </h1>
+
+     </section>
+
+   </div>
   <Messages />
 </template>
 

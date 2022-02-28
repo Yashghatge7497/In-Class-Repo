@@ -1,12 +1,13 @@
 <script setup lang="ts">
+import Nav from './components/Nav.vue';
+import Messages from './pages/Messages.vue';
 
 
 </script>
 
 <template>
-  <h1 class="title">
-    Praying Ukraine 
-  </h1>
+   <Nav />
+  <Messages />
 </template>
 
 <style>

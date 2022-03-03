@@ -31,7 +31,7 @@ import { ref, reactive, onMounted } from 'vue';
 </script>
 
 <template>
-                <div class="">
+                <div class="section">
                 <div class="columns">
 
                     <div class="column is-one-quarter">
@@ -107,7 +107,7 @@ import { ref, reactive, onMounted } from 'vue';
                             </div>
                           </div>
 
-                        <div v-for=" (x, i) in notifications" :class="`notification is-${x.type}`">
+                        <div v-for = "(x,i) in notifications" :class="'notification is-${x.type}'">
                             <button class="delete" @click="close(i)" ></button>
                             {{ x.message }}
                         </div>

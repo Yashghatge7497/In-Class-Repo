@@ -2,9 +2,13 @@
 import { Login } from '../models/session';
 
 
-    function login()
+    function relogin()
     {
         Login('Yash', 'toy')
+    }
+     function login()
+    {
+        Login('@yash', 'password')
     }
 </script>
 
@@ -17,6 +21,13 @@ import { Login } from '../models/session';
                 <i class="fa fa-sign-in"></i>
             </span>
             <span>Login</span>
+        </button>
+<br/>
+        <button class="button is-primary" @click="relogin">
+            <span class="icon">
+                <i class="fa fa-sign-in"></i>
+            </span>
+            <span>reLogin</span>
         </button>
     </div>
 </template>

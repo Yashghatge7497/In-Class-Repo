@@ -7,7 +7,7 @@ import Nav from './components/Nav.vue';
     <Nav />
 
     <div class="container">
-        <router-view/>
+        <router-view />
     </div>
 
     

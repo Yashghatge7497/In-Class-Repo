@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { defineProps } from "vue";
-
     const props = defineProps({
         title: {
             type: String,
@@ -17,5 +16,4 @@ import { defineProps } from "vue";
 
 
 <style scoped>
-
 </style>

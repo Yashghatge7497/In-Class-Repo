@@ -7,6 +7,7 @@ const isOpen = ref(false);
 </script>
 
 <template>
+<!-- -->
   <nav class="navbar navbar is-dark"  role="navigation" aria-label="main navigation">
     <div class="container" >
       <div class="navbar-brand">

@@ -29,7 +29,7 @@ const notifications = reactive([
                 <div class="section is-dark" >
                 <div class="columns is-dark">
 
-                    <div class="column is-one-quarter is-dark">
+                    <div class="column is-one-quarter ">
                         <aside class="menu">
                             <p class="menu-label">
                               General

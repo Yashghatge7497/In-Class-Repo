@@ -64,7 +64,7 @@ function login() {
 
 <style >
 .bg {
-  /* The image used */
+  
   background-image: url("https://www.w3schools.com/howto/img_avatar.png");
 
   /* Full height */

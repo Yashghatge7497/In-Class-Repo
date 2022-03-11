@@ -22,5 +22,5 @@ export function Logout() {
     session.user = null;
     router.push('/login');
 }
-    
+    //
 export default session;

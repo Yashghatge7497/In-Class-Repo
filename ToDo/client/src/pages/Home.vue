@@ -5,19 +5,18 @@
 
 <template>
   <body>
+<div style="background-color:black;">
+<h1  style="background-color: black;
+  color: white; text-align: center">TO-DO App</h1>
+<h2 style="text-align: center"><p>Please Login to Proceed</p></h2>
 
-<h2>Image Text</h2>
-<p>How to place text over an image:</p>
-
-<div class="container">
-  <img src="https://www.w3schools.com/howto/img_avatar2.png" alt="Snow" style="width:50%;">
-  <div class="bottom-left">Bottom Left</div>
-  <div class="top-left">Top Left</div>
-  <div class="top-right">Top Right</div>
-  <div class="bottom-right">Bottom Right</div>
-  <div class="centered">Centered</div>
+<div class="" style="max-width: 5000px">
+  <img src="https://png.pngtree.com/thumb_back/fh260/back_pic/03/80/06/3757c30a762387b.jpg" alt="Snow"  >
+  
+  <div class=""><h1 style="font-size: 120%; text-align: center;background-color: rgb(0, 0, 0);color :azure"> Welcome to my App</h1>
+  </div>
 </div>
-
+</div>
 </body>
 
 </template>
@@ -61,4 +60,15 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+img{
+  
+  width:100%; 
+  height:100%;
+  object-fit: cover;
+}
+html,body{
+    margin:10;
+    height:100%;
+}
+
 </style>

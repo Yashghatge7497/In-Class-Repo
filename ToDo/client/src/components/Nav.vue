@@ -7,9 +7,11 @@ const isOpen = ref(false);
 </script>
 
 <template>
-  <nav class="navbar navbar-dark" style="background-color: #09d356;" role="navigation" aria-label="main navigation">
-    <div class="container">
+
+  <nav class="navbar navbar is-dark"  role="navigation" aria-label="main navigation">
+    <div class="container" >
       <div class="navbar-brand">
+        &nbsp;&nbsp;
         <a class="navbar-item" >
           <img src="https://cdn-icons-png.flaticon.com/512/1/1560.png" width="85" />
         </a>
@@ -34,7 +36,7 @@ const isOpen = ref(false);
             <a class="navbar-link">Tasks</a>
             <div class="navbar-dropdown">
               <router-link class="navbar-item" to="/assignedtasks">Tasks Assigned</router-link>
-              <router-link class="navbar-item" to="/viewAllTasks">All Tasks</router-link>
+              <!--router-link class="navbar-item" to="/viewAllTasks">All Tasks</router-link-->
             </div>
           </div>
           <div class="navbar-item has-dropdown is-hoverable">
@@ -50,24 +52,10 @@ const isOpen = ref(false);
         </div>
         <div class="navbar-end">
           <div class="navbar-item">
-            <login-badge />
+            <login-badge />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </div>
 
-          <div class="navbar-item">
-            <a
-              class="bd-tw-button button"
-              data-social-network="Twitter"
-              data-social-action="tweet"
-              data-social-target="https://bulma.io"
-              target="_blank"
-              href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=https://bulma.io&amp;via=jgthms"
-            >
-              <span class="icon">
-                <i class="fab fa-twitter"></i>
-              </span>
-              <span>Tweet</span>
-            </a>
-          </div>
+<!-- -->
         </div>
       </div>
     </div>

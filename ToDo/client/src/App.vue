@@ -5,7 +5,7 @@ import Nav from './components/nav.vue';
 <template>
   <div>
     <Nav />
-    <div class="container">
+    <div class="">
         <router-view></router-view>
     </div>
   </div>

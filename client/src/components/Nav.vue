@@ -5,7 +5,7 @@ import LoginBadge from './LoginBadge.vue';
 import Messages from './Messages.vue';
 
     
-    const isOpen = ref(false);
+    const isOpen = ref(true);
 </script>
 
 <template>

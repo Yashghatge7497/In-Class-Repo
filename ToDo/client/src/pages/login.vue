@@ -10,12 +10,13 @@ function login() {
 
 <template>
 <div class="bg-img">
-    <section class="section" style="background-color : rgb(170, 245, 255) ;background-size: cover"  >      
+	
+    <section class="section"   >      
        <div class="columns">
        <div class="column is-4 is-offset-4">
            <form @submit.prevent="login">
 			   <div class="imgcontainer">
-      <img src="https://www.w3schools.com/howto/img_avatar2.png" alt="Avatar" class="avatar">
+      <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" class="avatar">
     </div>
 	
 		  <div class="field">
@@ -48,12 +49,11 @@ function login() {
 		    </button>
 			
 		  </p>
-		  <label>
-        <input type="checkbox"  name="remember"> Remember me
-      </label>
-		
-		  <span class="psw">Forgot <a href="#">password?</a></span>
+		  
+		  <span class="psw" style= "color :black;">Forgot <a href="#">password?</a></span>
 		</div>
+
+
         </form>
       </div>         
        </div>
@@ -64,13 +64,13 @@ function login() {
 
 <style >
 .bg {
-  /* The image used */
-  background-image: url("https://www.w3schools.com/howto/img_avatar2.png");
+  
+  background-image: url("https://www.w3schools.com/howto/img_avatar.png");
 
-  /* Full height */
+  
   height: 100%; 
 
-  /* Center and scale the image nicely */
+  /* Center and scale  */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

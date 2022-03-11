@@ -26,10 +26,11 @@ const notifications = reactive([
 </script>
 
 <template>
-                <div class="section">
-                <div class="columns">
+<!-- -->
+                <div class="section is-dark" >
+                <div class="columns is-dark">
 
-                    <div class="column is-one-quarter">
+                    <div class="column is-one-quarter ">
                         <aside class="menu">
                             <p class="menu-label">
                               General
@@ -67,10 +68,8 @@ const notifications = reactive([
                     </div>
 
                     <div class="column is-half">
-                        <h1 class="title">Bulma Examples</h1>
-                        <h2 class="subtitle">Some examples of using Bulma</h2> 
-
-
+                        <h1 class="title">To Do app Wall</h1>
+                        
                         <div class="card" @click="cardClick"  >
                             <div class="card-image">
                               <figure class="image is-4by3">
@@ -78,32 +77,11 @@ const notifications = reactive([
                               </figure>
                             </div>
                                 <button class="delete"></button>
-                            <div class="card-content">
-                              <div class="media">
-                                <div class="media-left">
-                                  <figure class="image is-48x48">
-                                    <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-                                  </figure>
-                                </div>
-                                <div class="media-content">
-                                  <p class="title is-4">John Smith</p>
-                                  <p class="subtitle is-6">@johnsmith</p>
-                                </div>
-                              </div>
-                          
-                              <div class="content">
-                                {{ message }} 
-                                <br />
-                                <a>@bulmaio</a>.
-                                <a href="#">#css</a> <a href="#">#responsive</a>
-                                <br>
-                                <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
-                              </div>
-                            </div>
+                            
                           </div>
 
                         <Messages />
-                        
+                     <!-- -->   
                     </div>
                        
                     <div class="column is-one-quarter">

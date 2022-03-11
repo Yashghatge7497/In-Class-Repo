@@ -16,7 +16,7 @@ export const list: User[] = [
         firstName: 'Lawliet',
         lastName: 'Ryuzaki',
         password: 'Deathnote',
-        email: 'l@gmail.com',
+        email: 'll@gmail.com',
         picture: 'https://randomuser.me/api/portraits/lego/4.jpg',
         userTasks: [
             {task : 'Need to update vue',dueDate:'04/21/2022', isCompleted: true, assignedBy: "Kira"},

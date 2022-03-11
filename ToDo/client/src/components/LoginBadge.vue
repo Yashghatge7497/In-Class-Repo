@@ -22,7 +22,7 @@
         </a>
     </div>
 </template>
-
+<!-- -->
 <style scoped lang="scss">
     .avatar {
         display: flex;

@@ -18,7 +18,7 @@
 </div>
 </div>
 </body>
-<!-- -->
+
 </template>
 
 <style >
@@ -61,7 +61,7 @@
   transform: translate(-50%, -50%);
 }
 img{
-  /* display:flex; */
+  
   width:100%; 
   height:100%;
   object-fit: cover;

@@ -26,6 +26,7 @@ const notifications = reactive([
 </script>
 
 <template>
+<!-- -->
                 <div class="section is-dark" >
                 <div class="columns is-dark">
 
@@ -80,7 +81,7 @@ const notifications = reactive([
                           </div>
 
                         <Messages />
-                        
+                     <!-- -->   
                     </div>
                        
                     <div class="column is-one-quarter">

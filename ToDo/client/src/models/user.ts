@@ -36,6 +36,7 @@ export const list: User[] = [
             {task : 'Need to update angular',dueDate:'03/21/2022', isCompleted: false, assignedBy: "Yash"},
             {task : 'Need to update react',dueDate:'03/26/2022', isCompleted: false, assignedBy: "Harika"}
         ]
+        //
     },
     {
         id: 3,

@@ -10,6 +10,6 @@ import Nav from './components/nav.vue';
     </div>
   </div>
 </template>
-<!-- -->
+
 <style>
 </style>

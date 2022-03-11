@@ -7,7 +7,7 @@ const isOpen = ref(false);
 </script>
 
 <template>
-<!-- -->
+
   <nav class="navbar navbar is-dark"  role="navigation" aria-label="main navigation">
     <div class="container" >
       <div class="navbar-brand">
@@ -55,7 +55,7 @@ const isOpen = ref(false);
             <login-badge />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </div>
 
-          
+<!-- -->
         </div>
       </div>
     </div>

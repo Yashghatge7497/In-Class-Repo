@@ -67,10 +67,10 @@ function login() {
   
   background-image: url("https://www.w3schools.com/howto/img_avatar.png");
 
-  /* Full height */
+  
   height: 100%; 
 
-  /* Center and scale the image nicely */
+  /* Center and scale  */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

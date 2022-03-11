@@ -12,8 +12,8 @@
     <div class="buttons" v-else>
         <div class="avatar">
             <img :src="session.user.picture" />
-            <div>
-                <strong>{{ session.user.firstName }} {{ session.user.lastName }}</strong> <br />
+            <div >
+                <strong style="color: white">{{ session.user.firstName }} {{ session.user.lastName }}</strong> <br />
                 <i>{{ session.user.email }}</i>
             </div>
         </div>
@@ -22,7 +22,7 @@
         </a>
     </div>
 </template>
-
+<!-- -->
 <style scoped lang="scss">
     .avatar {
         display: flex;

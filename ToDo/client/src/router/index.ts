@@ -31,7 +31,7 @@ const router = createRouter({
   routes, // short for `routes: routes`
   linkActiveClass: 'is-active',
 })
-
+//
 router.beforeEach((to, from) => {
     if (['/messages', '/wall', '/assignedtasks'].includes(to.path)) {
         if (!session.user) {

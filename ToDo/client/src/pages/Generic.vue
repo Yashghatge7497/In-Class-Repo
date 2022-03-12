@@ -14,6 +14,6 @@ import { defineProps } from "vue";
     </div>
 </template>
 
-<!-- -->
+
 <style scoped>
 </style>

@@ -26,12 +26,12 @@ const user = users.list;
                     </tr>
                 </thead>
                 <tbody>
-                    <th v-for="(u,i) in user">{{u}}</th>
+                    <!--th v-for="(u,i) in user">{{u}}</th-->
                 </tbody>
             </table>
         </div>
     </div>
 </template>
-<!-- -->
+
 <style scoped>
 </style>

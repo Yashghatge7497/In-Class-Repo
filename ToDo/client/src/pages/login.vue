@@ -11,7 +11,7 @@ function login() {
 <template>
 <div class="bg-img">
 	
-    <section class="section"   >      
+    <section class="section">      
        <div class="columns">
        <div class="column is-4 is-offset-4">
            <form @submit.prevent="login">
@@ -49,8 +49,7 @@ function login() {
 		    </button>
 			
 		  </p>
-		  
-		  <span class="psw" style= "color :black;">Forgot <a href="#">password?</a></span>
+		   <span class="psw" style= "color :black;">Forgot <a href="#">password?</a></span>
 		</div>
 
 

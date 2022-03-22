@@ -1,78 +1,113 @@
-<script setup lang="ts">
-import { Login } from '../models/session';
-import { ref } from 'vue'
-let userName = ref('');
-let password = ref('');
-function login() {
-    Login(userName.value, password.value)
-}
+<script>
+
+	//
+
 </script>
 
 <template>
-<div class="bg-img">
-	
-    <section class="section"   >      
-       <div class="columns">
-       <div class="column is-4 is-offset-4">
-           <form @submit.prevent="login">
-			   <div class="imgcontainer">
-      <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" class="avatar">
-    </div>
-	
-		  <div class="field">
-			  <label for="uname"><b>Username</b></label>
-		  <p class="control has-icons-left has-icons-right">
-		    
-		    <input class="input" placeholder="Username" v-model="userName">
-		    <span class="icon is-small is-left">
-		      <i class="fa fa-envelope"></i>
-		    </span>
-		    <span class="icon is-small is-right">
-		      <i class="fa fa-check"></i>
-		    </span>
-		  </p>
-		</div>
-		<div class="field">
-			<label for="uname"><b>Password</b></label>
-		  <p class="control has-icons-left">
-			   
-		    <input class="input" type="password" placeholder="Password" v-model="password">
-		    <span class="icon is-small is-left">
-		      <i class="fa fa-lock"></i>
-		    </span>
-		  </p>
-		</div>
-		<div class="field">
-		  <p class="control">
-		    <button class="button is-success">
-		      Login
-		    </button>
-			
-		  </p>
-		  
-		  <span class="psw" style= "color :black;">Forgot <a href="#">password?</a></span>
+	<div id="loginContainer" class="tile is-ancestor">
+		<div id="loginSideContent" class="content tile is-vertical is-6">
+			<div class="container">
+				<div id="imgContainer" class="container">
+					<figure class="image">
+						<img id="loginSideIll" class="is-square" src="../assets/svg/loginSideIllustration.svg" />
+					</figure>
+				</div>
+
+				<h1 id="loginTitle">To Do App</h1>
+				<p id="loginSubtitle">Organize your tasks and get stuff done!</p>
+			</div>
 		</div>
 
+		<div class="tile is-vertical is-6">
+			<div id="loginBox" class="box container vcenter">
+				<h2 id="loginFormTitle">Login</h2>
 
-        </form>
-      </div>         
-       </div>
-      </section>
-</div>
+				<div class="field">
+					<label class="label">Username</label>
+					<div class="control has-icons-left">
+						<input class="input is-normal" type="text" placeholder="Username" />
+						<span class="icon is-left">
+							<img class="inputIcon" src="../assets/svg/user.svg" />
+						</span>
+					</div>
+				</div>
+
+				<div class="field">
+					<label class="label">Password</label>
+					<div class="control has-icons-left">
+						<input class="input is-normal" type="password" placeholder="Password" />
+						<span class="icon is-left">
+							<img class="inputIcon" src="../assets/svg/password.svg" />
+						</span>
+					</div>
+				</div>
+
+				<button id="loginBtn" class="button is-success">Login</button>
+			</div>
+		</div>
+	</div>
 </template>
 
+<style>
+#loginBtn {
+	margin: 10px 0 auto auto;
+}
 
-<style >
-.bg {
-  
-  background-image: url("https://www.w3schools.com/howto/img_avatar.png");
+#loginFormTitle {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+	color: #1a1a1a;
 
-  
-  height: 100%; 
+	padding-bottom: 20px;
+}
 
-  /* Center and scale  */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+#loginBox {
+	width: 70%;
+	flex-grow: 0;
+	padding: 40px;
+}
+
+#loginContainer {
+	height: 100%;
+}
+
+#loginSideContent {
+	width: 50%;
+	height: 100%;
+	background: #dadada;
+}
+
+#loginSideIll {
+	width: 60%;
+}
+
+#imgContainer {
+	padding-top: 20%;
+}
+
+#loginTitle {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 59px;
+	color: #1a1a1a;
+	text-align: center;
+
+	padding-top: 5%;
+}
+
+#loginSubtitle {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	color: #4e4e4e;
+	text-align: center;
 }
 </style>

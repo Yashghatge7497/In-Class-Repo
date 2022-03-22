@@ -1,15 +1,19 @@
 <script setup lang="ts">
-import Nav from './components/Nav.vue';
+
+	import './assets/main.scss'
+	import login from './pages/login.vue'
+
 </script>
 
 <template>
-  <div>
-    <Nav />
-    <div class="">
-        <router-view></router-view>
-    </div>
-  </div>
+  <login />
 </template>
 
 <style>
+
+	#app {
+		width: 100%;
+		height: 100%;
+	}
+
 </style>
